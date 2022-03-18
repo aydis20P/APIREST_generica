@@ -34,6 +34,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->resource('Eventos', ['only' => ['index', 'create', 'update', 'delete']]);
 $routes->resource('Jwt_test', ['only' => ['index', 'create', 'update', 'delete']]);
+$routes->resource('Nada', ['only' => ['index', 'create', 'update', 'delete']]);
+
 
 /*
  * --------------------------------------------------------------------

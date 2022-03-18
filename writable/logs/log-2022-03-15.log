@@ -1,0 +1,91 @@
+CRITICAL - 2022-03-15 16:32:21 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(797): class_exists()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-15 16:33:16 --> file_get_contents(pubKey): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/app/Controllers/Jwt_test.php(33): file_get_contents()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->index()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 16:40:27 --> openssl_public_encrypt(): key parameter is not a valid public key
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/app/Controllers/Jwt_test.php(35): openssl_public_encrypt()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->index()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 16:41:35 --> syntax error, unexpected '$pubKey' (T_VARIABLE), expecting ')'
+#0 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(797): class_exists()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-15 16:41:52 --> Call to undefined function App\Controllers\string()
+#0 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->index()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-15 16:42:37 --> openssl_public_encrypt(): key parameter is not a valid public key
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/app/Controllers/Jwt_test.php(35): openssl_public_encrypt()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->index()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 16:48:47 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/html/APIREST_generica/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/html/APIREST_generica/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/html/APIREST_generica/system/API/ResponseTrait.php(99): App\Controllers\Jwt_test->format()
+#3 /var/www/html/APIREST_generica/app/Controllers/Jwt_test.php(36): App\Controllers\Jwt_test->respond()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->index()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-15 16:49:22 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/html/APIREST_generica/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/html/APIREST_generica/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/html/APIREST_generica/system/API/ResponseTrait.php(99): App\Controllers\Jwt_test->format()
+#3 /var/www/html/APIREST_generica/app/Controllers/Jwt_test.php(35): App\Controllers\Jwt_test->respond()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->index()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-15 17:33:28 --> Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded".
+#0 /var/www/html/APIREST_generica/system/Format/JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON()
+#1 /var/www/html/APIREST_generica/system/API/ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format()
+#2 /var/www/html/APIREST_generica/system/API/ResponseTrait.php(99): App\Controllers\Jwt_test->format()
+#3 /var/www/html/APIREST_generica/system/API/ResponseTrait.php(152): App\Controllers\Jwt_test->respond()
+#4 /var/www/html/APIREST_generica/app/Controllers/Jwt_test.php(97): App\Controllers\Jwt_test->respondCreated()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->update()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-15 17:33:58 --> syntax error, unexpected ']', expecting ')'
+#0 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(797): class_exists()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

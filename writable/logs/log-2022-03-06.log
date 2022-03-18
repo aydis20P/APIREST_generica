@@ -1,0 +1,42 @@
+CRITICAL - 2022-03-06 00:11:31 --> Class 'App\Controllers\MongoDB\Client' not found
+#0 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-06 00:15:22 --> require(vendor/autoload.php): failed to open stream: No such file or directory
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(6): require()
+#2 /var/www/html/APIREST_generica/system/Router/Router.php(518): include_once('/var/www/html/A...')
+#3 /var/www/html/APIREST_generica/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-06 00:15:56 --> Class 'App\Controllers\MongoDB\Client' not found
+#0 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-06 00:21:14 --> syntax error, unexpected '$cliente' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/APIREST_generica/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-06 00:21:41 --> Cannot call constructor
+#0 /var/www/html/APIREST_generica/system/CodeIgniter.php(809): App\Controllers\Eventos->__construct()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-06 00:50:59 --> Undefined variable: request
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

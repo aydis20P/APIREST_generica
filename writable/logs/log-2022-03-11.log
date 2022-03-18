@@ -1,0 +1,44 @@
+CRITICAL - 2022-03-11 10:09:02 --> Undefined variable: user_id
+#0 /var/www/html/APIREST_generica/app/Helpers/jwtcheck_helper.php(96): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/app/Controllers/Jwt_test.php(89): refreshJWT()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Jwt_test->update()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-11 16:57:00 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:08:27 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:10:38 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:10:42 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:11:31 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:11:34 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:11:54 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:23:27 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}
+CRITICAL - 2022-03-11 17:23:29 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/html/APIREST_generica/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/html/APIREST_generica/public/index.php(28): require('/var/www/html/A...')
+#2 {main}

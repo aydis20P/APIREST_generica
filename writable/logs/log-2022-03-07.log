@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-07 11:08:43 --> Access level to App\Controllers\Eventos::$model must be protected (as in class CodeIgniter\RESTful\ResourceController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-07 11:09:14 --> Class 'App\Models\MongoDB\Client' not found
+#0 /var/www/html/APIREST_generica/system/Config/Factories.php(110): App\Models\EventosModel->__construct()
+#1 /var/www/html/APIREST_generica/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#2 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(13): model()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(809): App\Controllers\Eventos->__construct()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

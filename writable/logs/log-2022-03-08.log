@@ -1,0 +1,115 @@
+CRITICAL - 2022-03-08 11:14:35 --> Call to undefined function App\Controllers\str_to_upper()
+#0 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 11:15:08 --> Undefined variable: request
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 11:21:16 --> Undefined index: horario
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->create()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 11:34:27 --> Undefined variable: request
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->update()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 12:04:18 --> Declaration of App\Models\EventosModel::insert($data) should be compatible with CodeIgniter\Model::insert($data = NULL, bool $returnID = true)
+#0 /var/www/html/APIREST_generica/app/Models/EventosModel.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(264): include_once('/var/www/html/A...')
+#2 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#3 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#5 [internal function]: spl_autoload_call()
+#6 /var/www/html/APIREST_generica/system/Config/Factories.php(136): class_exists()
+#7 /var/www/html/APIREST_generica/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#8 /var/www/html/APIREST_generica/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#9 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(14): model()
+#10 /var/www/html/APIREST_generica/system/CodeIgniter.php(809): App\Controllers\Eventos->__construct()
+#11 /var/www/html/APIREST_generica/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#12 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#13 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-08 12:05:22 --> Allowed fields must be specified for model: App\Models\EventosModel
+#0 /var/www/html/APIREST_generica/system/BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /var/www/html/APIREST_generica/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields()
+#2 /var/www/html/APIREST_generica/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#3 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(45): CodeIgniter\Model->insert()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->create()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 12:08:19 --> Undefined variable: eventos_coll
+#0 /var/www/html/APIREST_generica/app/Models/EventosModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(45): App\Models\EventosModel->insertarEvento()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->create()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-08 12:17:34 --> Call to a member function obtenerEvento() on null
+#0 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-08 12:18:33 --> Class 'App\Models\ObjectID' not found
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(25): App\Models\EventosModel->obtenerEvento()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 12:27:53 --> Undefined variable: collection
+#0 /var/www/html/APIREST_generica/app/Models/EventosModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(25): App\Models\EventosModel->obtenerEvento()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->index()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-08 21:56:14 --> syntax error, unexpected ')'
+#0 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /var/www/html/APIREST_generica/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(797): class_exists()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-08 21:56:51 --> Expected an update document with operator as first key or a pipeline
+#0 /var/www/html/APIREST_generica/vendor/mongodb/mongodb/src/Collection.php(1108): MongoDB\Operation\UpdateOne->__construct()
+#1 /var/www/html/APIREST_generica/app/Models/EventosModel.php(45): MongoDB\Collection->updateOne()
+#2 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(72): App\Models\EventosModel->modificarEvento()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->update()
+#4 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-08 21:58:15 --> Call to undefined method MongoDB\UpdateResult::getInsertedId()
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(72): App\Models\EventosModel->modificarEvento()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->update()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-08 22:13:19 --> Undefined variable: params
+#0 /var/www/html/APIREST_generica/app/Controllers/Eventos.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/APIREST_generica/system/CodeIgniter.php(832): App\Controllers\Eventos->delete()
+#2 /var/www/html/APIREST_generica/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/APIREST_generica/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/APIREST_generica/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
